@@ -7,9 +7,6 @@
     "start": "node app.js",
     "test": "./node_modules/.bin/mocha --exit --timeout 5000 --recursive -R xunit test/* "
   },
-  "mocha-junit-reporter": {
-  "mochaFile": "test-results/results.xml"
-},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RegisUniversity/MSES602_helloWorld.git"
